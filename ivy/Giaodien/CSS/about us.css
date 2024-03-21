@@ -1,0 +1,102 @@
+
+.wapper{
+    width: 100%;
+}
+.container{
+    padding: 100px 60px ;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+.conten1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(172, 170, 170);
+    border-top: 1px solid gray;
+    display: flex;
+    text-align: center;
+}
+.item1{   
+    color: rgb(67, 66, 66);
+}
+.item2{
+    color: black;
+}
+.conten1 li{
+    display: inline;
+    
+}
+.img-ivy img{
+    width: 100%;
+}
+.img img{
+    width: 100%;
+    height: auto;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.main{ 
+    height: 600px;
+    display: grid;
+    border: 1px solid #2b2c2d;
+    grid-gap: 60px;
+    border-radius: 80px 0px;
+    overflow: hidden;
+    grid-template-columns: 40% 65%;
+    
+}
+.main-left{
+    padding: 40px;
+}
+.main-left>h2{
+    width: 60%;
+    
+}
+.main-left>p{
+    padding-top: 100px;
+}
+.time{
+    color: gray;
+    padding-top:30px ;
+    font-size: 20px;
+}
+.main-right img{
+    width: 800px;
+    border-radius: 40px 0px;
+}
+.action{
+    padding-top: 80px;
+    
+}
+.button{
+    width: 100px;
+    padding: 5px;
+    color: rgb(36, 35, 35);
+    border-radius: 10px;
+    background-color: pink;
+}
+.news{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    padding-top:100px ;
+}
+.desc .title1{
+    padding-top: 10px;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+.desc .time{
+    color: gray;
+    padding-top:10px ;
+    font-size: 18px;
+}

@@ -1,0 +1,78 @@
+
+.block-border{
+	width: 700px;
+}
+
+.order-block__title {
+	display: flex;
+	align-items: center;
+}
+.checkout-address-delivery {
+	margin-top: 16px;
+}
+
+.block-border {
+	border: 1px solid #e7e8e9;
+	border-radius: 32px 0px;
+}
+
+
+.checkout-address-delivery .block-border h4 {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+	color: #221f20;
+	margin-bottom: 21px;
+	
+}
+/* font chu cho toàn p */
+.checkout-address-delivery .block-border p {
+	font-size: 12px;
+}
+/* kcah 2 <p> */
+.checkout-address-delivery .block-border p + p {
+	margin-top: 16px;
+	display: block;
+}
+
+.checkout-address-delivery__action {
+	/* so với block border */
+	position: absolute;
+	top: 26px;
+	display: flex;
+	align-items: center;
+}
+
+
+
+
+/* kcah vs <h3> SỔ dc */
+.order-block__title > .btn {
+	margin-left: auto;
+}
+
+/* bao quát cả <p> ptu 1 đt+0355... */
+.checkout-address-delivery .block-border p span:nth-child(1) {
+	flex: 0 0 60px;
+	max-width: 60px;
+	color: #221f20;
+	margin-left: 5px;
+}
+/* ptu thứ 2 là <p> của dc+ngo thi nham */
+.checkout-address-delivery .block-border p span:nth-child(2) {
+	color: #221f20;
+	margin-left: 5px;
+}
+/* l vc riêng chọn ptu span đầu tiên là : Điện THoại */
+.checkout-address-delivery .block-border p.phone-checkout span:nth-child(1) {
+	flex: 0 0 80px;
+	max-width: 80px;
+}
+/* màu cho tiêu đề h3 Sổ ĐỊA Chỉ */
+.order-block__title h3 {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 32px;
+	color: #221f20;
+}
+

@@ -1,0 +1,17 @@
+.hotro{
+	display: flex;
+	align-content: space-around;
+}
+.support-content{
+	margin-top: 20px;
+	border: 1px solid black;
+	width: 700px;
+	border-radius: 15px 0px;
+	padding: 20px;
+	background-color: rgb(218, 216, 216);
+}
+.nb1{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+}
